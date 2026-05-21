@@ -8,10 +8,13 @@ public class App {
         return a / b;
     }
     public static void main(String[] args) {
+         App calc = new App();
         System.out.println("May tinh dang hoat dong!");
-        App calc = new App();
+        System.out.println("=================================================");
+        System.out.println("Ket qua thuat toan may tinh");
         System.out.println("Ket qua phep cong 10 + 5 = " + calc.add(10, 5));
         System.out.println("Ket qua phep tru 10 - 7 = " + calc.subtract(10, 7));
         System.out.println("Ket qua phep nhan 10 * 4 = " + calc.multiply(10, 4));
+        System.out.println("=================================================");
     }
 }
